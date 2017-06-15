@@ -1,0 +1,111 @@
+/* Write your custom CSS here */
+
+.odd{
+	background-color:#fafafa !important;
+}
+
+.even{
+	background-color:#fff !important;
+}
+
+.dataTables_info {
+	font-size:12px !important;
+	padding-top:25px !important;
+}
+
+.dataTables_paginate {
+	font-size:12px !important;
+	padding-top:25px !important;
+}
+
+div .paginate_button{
+	font-size:12px !important;
+}
+
+#toast-container{
+	display:none !important;
+}
+
+.validation-notif{
+	color:#e13300;
+}
+
+#top-pop{
+	display:none;
+}
+#left-pop{
+	display:none;
+}
+#right-pop{
+	display:none;
+}
+#cleft1-pop{
+	display:none;
+}
+#cleft2-pop{
+	display:none;
+}
+#cleft3-pop{
+	display:none;
+}
+#cright1-pop{
+	display:none;
+}
+#cright2-pop{
+	display:none;
+}
+#cright3-pop{
+	display:none;
+}
+#pop-pop{
+	display:none;
+}
+#main-pop{
+	display:none;
+}
+#vertical-pop{
+	display:none;
+}
+#horizontal1-pop{
+	display:none;
+}
+#horizontal2-pop{
+	display:none;
+}
+#bg-pop{
+	display:none;
+}
+
+
+.posting-table{
+    display:block;
+}
+.posting-list{
+    display:none;
+}
+
+.desktop-ver{
+    display:block;
+}
+.mobile-ver{
+    display:none;
+}
+
+
+
+@media (max-width:768px){
+	.posting-list{
+	    display:block;
+	}
+	
+	.posting-table{
+        display:none;
+    }
+    
+    .desktop-ver{
+        display:none;
+    }
+    .mobile-ver{
+        display:block;
+    }
+}
